@@ -9,13 +9,13 @@
 
 stdenv.mkDerivation {
   pname = "wee-slack";
-  version = "2.11.0-unstable-2026-01-07";
+  version = "2.11.0-unstable-2026-05-27";
 
   src = fetchFromGitHub {
     repo = "wee-slack";
     owner = "wee-slack";
-    rev = "08a9cd05d482772e79d879e0b99ddd66a94d979d";
-    hash = "sha256-9S8XI+ZSzXcWOQbH6hxZ3N8VEczRE0+xxh5w9dqTL00=";
+    rev = "d4b68872b0e4c493279b3e4de47e4589bd938f28";
+    hash = "sha256-nH6Fjf/LzUtfaUmk+uZFffIGMtnkeq7bnazw5Mk6AYk=";
   };
 
   patches = [
